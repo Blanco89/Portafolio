@@ -1,0 +1,70 @@
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #2f2f28 #dadadc;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #dadadc;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #2f2f28;
+    border-radius: 0px;
+    border: 0px none #2f2f28;
+  }
+
+  *{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: -1px 4px 9px rgba(0,0,0,0.23);
+  }
+
+.flexBox2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    flex-flow: column;
+    flex: 30%;
+}
+
+.bodyOptions{
+  color: #e6e4f0;
+  align-self: flex-start;
+  background: rgb(42,38,50);
+  background: linear-gradient(180deg, rgba(42,38,50,1) 0%, rgba(23,23,22,1) 100%);
+  box-shadow: -1px 10px 16px -6px rgba(0,0,0,0.36);
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+.bodyText{
+  margin: 1%;
+  text-align: center;
+  width: 80%;
+  align-self: center;
+  font-size: large;
+}
+
+#bodyVideo1{
+  width: 30%;
+  flex: 30%;
+}
+
+iframe{
+  width: 100%;
+  height: 100%;
+}
+
+
+

@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: -1px 4px 9px rgba(0,0,0,0.23);
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+
+.flexBox1{
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #171716;
+    padding: 1%;
+    background-color: #1e1b24;
+    color: #e6e4f0;
+    -webkit-transition: all 0.3s 0s ease;
+    transition: all 0.3s 0s ease;
+    text-shadow: -1px 4px 9px rgba(255, 255, 255, 0.23);
+}
+
+
+#bgImage1{
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+    background-color: transparent;
+    box-shadow: 0px -41px 24px -42px rgba(0,0,0,0.49) inset;
+    -webkit-box-shadow: 0px -41px 24px -42px rgba(0,0,0,0.49) inset;
+    height: 500px;
+    width: 100%;
+}
+
+.headOptions{
+    text-align: center;
+    margin: 1%;
+    flex-grow: 1;
+}
+
+
+
+#headLogo{
+    flex-grow: 3;
+    text-align: center;
+    background-image: url(../image/alphabet-p-icon-inverted.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60px;
+    width: 60px;
+    padding: 0%;
+    margin: 0%;
+    -webkit-transition: all 0.3s 0s ease;
+    transition: all 0.3s 0s ease;
+}
+
+.bgChange1{
+    background-color: #e6e4f0;
+    color: #1e1b24;
+    padding: 0%;
+    border-bottom: 0;
+    box-shadow: -1px 10px 16px -6px rgba(0,0,0,0.36);
+}
+
+.bgChange2{
+    filter: invert(80%);
+}
+
+.myButton {
+	background-color:transparent;
+	display:inline-block;
+	cursor:pointer;
+	padding:5px 10px;
+	text-decoration:none;
+}
+.myButton:hover {
+	color: #677580;
+    text-shadow: -1px 4px 9px rgba(0,0,0,0.33);
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
