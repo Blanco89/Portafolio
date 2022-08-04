@@ -9,6 +9,9 @@ body{
     background-color: aliceblue;
 }
 
+a{
+    color: currentColor;
+}
 
 
 .flexBox1{

@@ -51,6 +51,7 @@
 .bodyText{
   margin: 1%;
   text-align: center;
+  height: 400px;
   width: 80%;
   align-self: center;
   font-size: large;
